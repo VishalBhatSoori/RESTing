@@ -1,0 +1,22 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -L script.js"
+  },
+  "nodemonConfig": {
+    "legacyWatch": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "mongoose": "^8.16.4"
+  }
+}

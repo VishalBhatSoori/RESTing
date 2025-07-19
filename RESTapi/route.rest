@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/687b6e7ef61b3ea0ff288c12
+
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Kavyaa V",
+    "sub":"Web Dev Simplfied"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/687b5a67f792a4524d60372a
+
+###
+PATCH http://localhost:3000/subscribers/687b6e7ef61b3ea0ff288c12
+Content-Type: application/json
+
+{
+    "name":"Kavyaa NCC"
+}
